@@ -1,0 +1,25 @@
+.counterWrapper {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+
+.titleCreated {
+  font-weight: bold;
+  font-size: 14;
+  color: var(--blue);
+}
+
+.titleCompleted {
+  font-weight: bold;
+  font-size: 14;
+  color: var(--purple);
+}
+
+.counter {
+  font-weight: bold;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+  border-radius: 999px;
+  padding: 0 10px;
+}

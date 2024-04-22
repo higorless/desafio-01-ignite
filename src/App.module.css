@@ -1,0 +1,18 @@
+.mainWrapper {
+  display: grid;
+  grid-template-rows: 200px 1fr;
+
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.mainContent {
+  margin: -60px auto 0;
+  width: 736px;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}

@@ -1,0 +1,12 @@
+.businessLogo {
+  color: var(--blue);
+  background: var(--gray-700);
+  height: 100%;
+  font-size: 40px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}

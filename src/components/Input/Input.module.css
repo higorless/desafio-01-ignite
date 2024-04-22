@@ -1,0 +1,37 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 0;
+  justify-content: space-between;
+  max-width: 736px;
+
+  gap: 8px;
+}
+
+.inputWrapper input {
+  padding: 16px;
+  width: 100%;
+
+  border-radius: 8px;
+  padding: 16px;
+
+  border: 0;
+}
+
+.inputWrapper button {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  transition: 0.1s;
+}
+
+.inputWrapper button:hover {
+  background-color: var(--blue);
+}

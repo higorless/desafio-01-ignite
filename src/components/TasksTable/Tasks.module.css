@@ -1,0 +1,16 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tasksInfos {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

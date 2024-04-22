@@ -1,0 +1,32 @@
+.tasksWrapper {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-400);
+  padding: 16px;
+
+  border-radius: 8px;
+  box-shadow: 0px 0px 0px #7a7a7a;
+  background: var(--Gray-500, #262626);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+
+  gap: 12px;
+}
+
+.tasksWrapperCompleted {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+
+  border-radius: 8px;
+  background: var(--Gray-500, #121511);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+
+  text-decoration: line-through;
+  box-shadow: 0px 0px 4px #4af100;
+
+  gap: 12px;
+}
+
+.tasksWrapperCompleted p {
+  opacity: 50%;
+}
